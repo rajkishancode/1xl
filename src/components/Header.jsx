@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between px-4 py-4 bg-white text-black fixed w-full top-0 shadow-md z-10">
+    <header className="flex items-center justify-between px-4 py-4 bg-white text-black fixed w-[90%] top-0 shadow-md z-10">
       <div className="flex items-center space-x-4">
         <img src={dogPawLogo} alt="Logo" className="h-10" />
         <span className="logo-text text-xl font-bold">
