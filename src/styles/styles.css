@@ -1,0 +1,8 @@
+/* Define a custom class using @apply */
+.logo-text {
+  @apply  text-secondary font-bold;
+}
+
+.first-letter {
+  @apply text-primary text-2xl font-bold;
+}

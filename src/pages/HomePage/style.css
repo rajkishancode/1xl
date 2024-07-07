@@ -1,0 +1,38 @@
+@keyframes slideInRightToLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.text-animation {
+  animation: slideInRightToLeft 1s ease-in-out;
+}
+
+
+/* styles.css */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+/* Hide the scroll bar for all browsers */
+body, html {
+  overflow: hidden;
+}
+
+/* Specific class for any container that should not show scrollbars */
+.no-scrollbar {
+  overflow: hidden;
+}
